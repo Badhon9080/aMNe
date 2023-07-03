@@ -1,0 +1,552 @@
+/*
+Theme Name: 
+Author: 
+Version: 1.0.0
+
+
+Table of Content
+===================================================
+
+    1. Common Css
+    2. Nav Section
+    3. Banner Section
+*/
+/* Common CSS Start */
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol,
+span,
+small{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+/*//Common CSS End*/
+/*Nav Section CSS Start*/
+#nav{
+    background-color: #131e29;
+    border-bottom: 3px solid #536d83;
+   /* 
+   top:0;
+    position: sticky;
+    */
+}
+#main_menu ul li a{
+    padding: 20px;
+    font-weight: bold;
+    color: #fff;
+    transition: all linear 0.5s;
+    font-size: 13px;
+   text-transform: uppercase;
+}
+#main_menu ul li:hover a{
+    color: #4bcaff;
+}
+/*//Nav Section CSS End*/
+/*Banner Section CSS Start*/
+#banner{
+    background-image: url(../img/banner.jps);
+    border-bottom: 5px solid #4bcaff;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+
+    background-size: cover;
+    height: 700px;
+}
+.banner_content_img_part{
+    left: -1px;
+    position: absolute;
+    bottom: -101px;
+}
+.banner_content_written_part{
+    margin-left: 552px;
+    margin-top: 173px;
+}
+.banner_content_heading h2{
+    font-weight: lighter;
+    color: #fff;
+    font-size: 48px;
+    width: 686px;
+}
+.banner_content_heading h2 span{
+    font-weight:bold;
+}
+.banner_content_paragraph {
+    margin-top: 32px;
+}
+.banner_content_paragraph p{
+    font-weight: lighter;
+    color: #fff;
+    font-size: 18px;
+    width: 671px;
+}
+.links_section_part{
+    margin-top: 52px;
+}
+.download-link a{
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: 15px 27px;
+    transition: all linear 0.5s;
+    color: #fff;
+    border-radius: 13px;
+    font-size: 15px;
+}
+.download-link:hover a{ 
+    background-color: #4bcaff;
+   box-shadow: 0 3px 0 rgba(39, 118, 151, 0.84);
+   border: none;
+}
+.learn-link{
+    margin-left: -36px;
+}
+.learn-link a{
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: 15px 27px;
+    transition: all linear 0.5s;
+    color: #fff;
+    border-radius: 13px;
+    font-size: 15px;
+}
+.learn-link:hover a{ 
+    background-color: #4bcaff;
+   box-shadow: 0 3px 0 rgba(39, 118, 151, 0.84);
+   border: none;
+}
+.available_section_part{
+    margin-top: 72px;
+}
+.avaiable_paragraph p{
+    color: #fff;
+}
+.apple_icon_section{
+    margin-left: 20px;
+    margin-top: -7px;
+}
+.apple_icon_section a i{
+    font-size: 28px;
+    background-color: #191c21;
+    transition: all linear 0.5s;
+    color: #4bcaff;
+    border-radius: 50%;
+    padding: 8px 11px;
+} 
+.apple_icon_section a:hover i{
+    color: #191c21;
+    background-color: #fff;
+}
+.android_section{
+    margin-left: -95px;
+    margin-top: -7px;
+}
+.android_section a i{
+    font-size: 21px;
+    background-color: #191c21;
+    transition: all linear 0.5s;
+    color: #4bcaff;
+    border-radius: 50%;
+    padding: 11px 11px;
+}
+.android_section a:hover i{
+    color: #191c21;
+    background-color: #fff;
+} 
+/*//Banner Section CSS End*/
+/*Features Section CSS Start*/
+#features{
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f9f9f9;
+    height: 586px;
+}
+.feature_content{
+    margin-top: 52px;
+}
+.feature_content_heading h3{
+    color: #414042;
+    font-weight: bold;
+    font-size: 36px;
+}
+.feature_content_paragraph p{
+    font-size: 20px;
+    color: #414042;
+}
+.feature_LayS_section_part{
+    margin-top: 72px;
+}
+.attractive-Lay-iconS i{
+    font-size: 52px;
+    background-color: #4bcaff;
+    border: 4px solid #efefef;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 51px 51px;
+}
+.attractive-Lay-iconS-headingS {
+    margin-top: 32px;
+}
+.attractive-Lay-iconS-headingS h4{
+    color: #414042;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.attractive-Lay-iconS-ParagrapHS{
+    margin-top: 28px;
+}
+.attractive-Lay-iconS-ParagrapHS p{
+    width: 233px;
+    color: #838383;
+    margin: auto;
+    font-size: 13px;
+}
+/*//Features Section CSS End*/
+/*Gallary Section CSS Start*/
+.gallary_content{
+    margin-top: 72px;
+}
+.gallary_content_heading h3{
+    color: #414042;
+    font-weight: bold;
+    font-size: 36px;
+}
+.gallary_content_paragraph p{
+    font-size: 20px;
+    color: #414042;
+}
+.gallary_section_screeshot_parts{
+    margin-top: 72px;
+}
+.screen-size{
+    margin-left: 20px;
+    height: 201px;
+    position: relative;
+    background-color: #4bcaff;
+    border-radius: 13px;
+    width: 268px;
+}
+.screen-size-overlay{
+    width: 268px;
+    position: absolute;
+    background-color: #447084;
+    border-radius: 0 0 13px 13px;
+    
+    bottom: 0;
+    
+    height: 41px;
+   
+}
+.screen-size-overlay h5{
+    font-weight: bold;
+   padding-top: 13px;
+    color: #4bcaff;
+    font-size: 15px;
+}
+.screen-size-content-paragraph{
+    margin-left: 20px;
+    margin-top: 28px;
+    
+}
+.screen-size-content-paragraph p{
+    width: 233px;
+    color: #838383;
+    
+    font-size: 13px;
+}
+/*//Gallary Section CSS End*/
+
+
+/*Video Section CSS Start*/
+#video{
+    margin-top: 72px;
+    height: 552px;
+    background-image: url(../img/banner[technology].jps);
+    background-position: center;
+    background-size: cover;
+}
+.technology_content{
+    margin-top: 72px;
+}
+.technology_content_heading h3{ font-weight: lighter;
+    color: #ffffff;
+    font-size: 48px;
+}
+.technology_content_heading span{
+    font-weight: bold;
+}
+.technology_content_paragraph{
+    margin-left: 356px;
+    margin-top: 49px
+}
+.technology_content_paragraph p{
+    font-weight: lighter;
+    color: #fff;
+    font-size: 18px;
+    width: 636px;
+}
+.technology_content_paragraph_again{
+    margin-left: 356px;
+    margin-top: 19px
+}
+.technology_content_paragraph_again p{
+    font-weight: lighter;
+    color: #fff;
+    font-size: 18px;
+    width: 636px;
+}
+/*//Video Section CSS End*/
+/*Price Section CSS Start*/
+#prices{
+    height: 724px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.price_content{
+    margin-top: 72px;
+}
+.price_content_heading h3{
+    color: #414042;
+    font-weight: bold;
+    font-size: 36px;
+}
+.price_content_paragraph p{
+    font-size: 20px;
+    color: #414042;
+}
+.price_section_part{
+    margin-top: 82px;
+}
+.basic_package{
+    margin-left: 140px;
+    border: 1px solid #dad7d7;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    height: 448px;
+    width: 301px;
+}
+.basic_package_content_heading{
+    margin-top: 28px;
+}
+.basic_package_content_heading h5{
+    color: #e0e0e0;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.basic_discount{
+    margin-top: 29px;
+    background-color: #91c46b;
+}
+.basic_discount h1{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 85px;
+}
+.basic_product p{
+    margin-top: 28px;
+    color: #e0e0e0;
+}
+.purchase-button {
+    margin-top: 28px;
+}
+
+.purchase-button button{
+    background-color: #91c46b;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 13px 18px;
+}
+.professional_package{
+    margin-left: 28px;
+    margin-top: -24px;
+    border: 1px solid #dad7d7;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    height: 486px;
+    width: 371px;
+}
+.professional_package_content_heading h5{
+    font-size: 22px;
+    font-weight:bold;
+    color: #4bcaff;
+}
+  .professional_discount{
+    background-color: #4bcaff;
+  }  
+
+.professional_product p{
+    color: #4bcaff;
+}
+.professional-button button{
+    background-color: #4bcaff;
+}
+.advanced_package{
+    margin-left: 28px;
+    border: 1px solid #dad7d7;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    height: 448px;
+    width: 301px;
+}
+.advanced_discount {
+    background-color: #fd7c00;
+}
+.advanced-button button{
+    background-color: #fd7c00;
+}
+/*Price Section CSS End*/
+/*Testimonials Section CSS Start*/
+.testimonial_content{
+    margin-top: 72px;
+}
+.testimonial_heading h3{
+    color: #414042;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.testimonial_id{
+    margin-left: 342px;
+}
+.testimonial_id_written_part{
+    margin-top: 52px;
+}
+.testimonial_written{
+    margin-left: 72px;
+    margin-top: 30px;
+}
+.testimonial_written p{
+    font-weight: bold;
+    font-style: italic;
+    color: #4bcaff;
+    font-size: 14px;
+    width: 366px;
+}
+/*//Testimonials Section CSS End*/
+/*Download Section CSS Start*/
+#download{height: 212px;
+    background-color: #414042;
+    margin-top: 95px;
+}
+.download_content{
+    margin-top: 32px;
+}
+.download_heading h6{
+    font-weight: bold;
+    color: #fff;
+    font-size: 55px;
+}
+.download-button{
+    margin-top: 42px;
+}
+.download-button button{
+    color: #424d55;
+    padding: 15px 25px;
+    font-weight: bold;
+    box-shadow: 0 3px 0 rgba(39, 118, 151, 0.84);
+    border:none;
+    background-color: #4bcaff;
+    border-radius: 8px;
+    font-size: 15px;
+}
+/*//Download Section CSS End*/
+
+/*Map[form] Section CSS Start*/
+.map{
+    position: relative;
+}
+.contact_form { background-color: rgba(100, 206, 238, 0.75);left: 632px;
+    border: 1px solid #c5c3ba;
+    width: 325px;
+    position: absolute;
+    top: 213px;
+    border-radius: 8px;
+    height: 499px;
+}
+.contact_form_heading h3{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.name-form input{
+    width: 271px;
+    height: 35px;
+    color: #d6d6d6;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.email-form{
+    margin-top: 15px;
+}
+.email-form input{
+    width: 271px;
+    height: 35px;
+    color: #d6d6d6;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.subject-form{
+    margin-top: 15px;
+}
+.subject-form input{
+    width: 271px;
+    height: 35px;
+    color: #d6d6d6;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+} 
+.message-form {
+    margin-top: 15px;
+}
+
+.message-form  textarea{
+    width: 271px;
+    height: 147px;
+    color: #d6d6d6;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.send {
+    margin-top: 20px;
+}
+.send a{
+    background-color: #414042;
+    color: #72b3cc;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 11px 40px;
+    font-size: 15px;
+}
+/*//Map[form] Section CSS End*/
+/*End Section CSS Start*/
+.end_content_paragraph span{margin-left: 822px;}
+#end{
+    background-color: #414042;
+}
+.end_content_paragraph p{
+    color: #808081;
+    padding-bottom: 49px;
+    font-size: 13px;
+    padding-top: 49px;
+}
+
+/*//End Section CSS End*/
